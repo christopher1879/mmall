@@ -1,0 +1,53 @@
+
+
+    <!-- 二期温馨提示,springmvc扫描包指定到controller，防止重复扫描 -->
+
+    <context:component-scan use-default-filters="false" annotation-config="true" base-package="mmall.controller" use-default-filter="false">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+
+
+
+</context:component-scan>
+
+
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value></value>
+                        <value></value>
+                    </list>
+                </property>
+            </bean>
+            <bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value></value>
+                    </list>
+                </property>
+
+
+            </bean>
+        </mvc:message-converters>
+
+</mvc:annotation-driven>
+
+
+
+<bean id="" class="">
+    <property name="" value=""/>
+</bean>
+
+
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/manage/**"/>
+
+            <bean class ="com."/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+
+</beans>

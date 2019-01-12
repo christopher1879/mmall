@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mmall.dao.catagorymapper">
+    <resultMap id="baseresultmap" type="mmall.pojo.catagory">
+        <constructor>
+            <idArg column=" id" jdbcType="integer" javaType="java.lang.Integer"/>
+            <arg column="parentid" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+            <arg column="status" jdbcType="BIT" javaType="java.lang.Boolean" />
+            <arg column="sort_order" jdbcType="INTEGER" javaType="java.lang.Integer" />
+            <arg column="create_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+            <arg column="update_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+        </constructor>
+    </resultMap>
+
+    <sql id=" base_column_list">
+        id,parentid,name,status,sort_order,create_time,update_time
+    </sql>
+    <select id="" resultMap="" parameterType="java.lang.Integer">
+        select
+        <include refid="base_column_list"/>
+        from mmall_catagory
+        where id=#{id,jdbctype=integer}
+
+    </select>
+    <delete id=""  parameterType="java.lang.Integer">
+        delete  from mmall_catagory
+        where  id =#{id,jdbctype=integer}
+    </delete>
+    <insert id="" parameterType="com.mmall.pojo.catagory">
+        insert  into mmall_catagory(id,parent_id,name ,status, sort_order,create_time,udate_time)
+        values (#{},#{},#{},)
+    </insert>
+
+    <insert id="" parameterType="">
+        insert into mmall_catagory
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+                <if test=" id ! =null">
+                    #{id,jdbctype=integer
+                }
+                </if>
+        /trim>
+    </insert>
+</mapper>

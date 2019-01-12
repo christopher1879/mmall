@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="dao.orderitemmapper" >
+    <resultMap id="BaseResultMap" type="pojo.OrderItem" >
+        <constructor >
+            <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+            <arg column="order_no" jdbcType="BIGINT" javaType="java.lang.Long" />
+            <arg column="product_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+            <arg column="product_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="product_image" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="current_unit_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+            <arg column="quantity" jdbcType="INTEGER" javaType="java.lang.Integer" />
+            <arg column="total_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+            <arg column="create_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+            <arg column="update_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+            <arg column="user_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+        </constructor>
+    </resultMap>
+
+
+
+
+ <mapper namespace="com.mmall.dao.orderitemmapper" >
+    <resultMap id="baseresultmap" type=""/>
+    <constructor>
+        <idArg column="id" jdbcType="integer" javaType="java.lang.Long.integer"/>
+    </constructor>
+
+
+
+
+    <insert id="ggetbyordernouserid" parameterType="map" resultmap=""/>
+
+    </insert>
+
+    <insert id=""  parameterType="list">
+
+        insert into  mmall_order_item(id, order_no,user_id, product_id,
+      product_name, product_image, current_unit_price,
+      quantity, total_price, create_time,
+      update_time)
+      values
+      <foreach collection="orderitemlist" index="index" item="item" separator="," >
+
+          (
+          #{item.id},#{item.orderno},#{item.productid},#{item.productname},#{item.productimage},#{item.currentunitprice},#{item.quantity},
+          #{item.totalprice}
+          )
+
+      </foreach>
+
+
+
+    </insert>
+
+
+
+</mapper>
