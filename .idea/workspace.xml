@@ -2,119 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad1d1b98-6892-491b-a7c1-1920cbe2cc2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmall.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/Redissonmanager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/ResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/ServerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/exceptionresolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/redispool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/redisshardedpool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/tokencache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/backend/categorycontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/backend/ordercontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/backend/productcontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/backend/usercontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/common/authorityinterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/common/sessionexpirefilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/portal/cartcontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/portal/shippingcontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/portal/usercontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/portal/userspringsessioncontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/cartmapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/catagorymapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/orderitemmapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ordermapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/payinfomapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/productmapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/shippingmapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/usermapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/catagory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/shipping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/cartservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/cartserviceimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/catagoryservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/catagoryserviceimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/fileservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/fileserviceimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/oderserviceimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/orderservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/productservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/productserviceimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/shippingservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/shippingserviceimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/usermapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/uservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/userviceiml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/closeordertask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/MD5utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/bigdecimalutils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/cookieutils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/datetimeutils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ftputils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/jsonutils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/propertyutils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/redispoolutil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/redisshardedpoolutil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vo/cartproductvo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vo/cartvo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vo/orderitemvo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vo/orderproductvo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vo/ordervo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vo/productdetailvo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vo/productlistvo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vo/shippingvo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationcontext-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationcontext-session" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationcontext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/cartmapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/catagorymaper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/orderitemmapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/ordermapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/payinfomapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/productmapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/shippingmapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/zhifubao.property" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-sdk-java20161213173952-source.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-sdk-java20161213173952.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bigdecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationcontext-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationcontext-session" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationcontext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/datasource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generatorconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/cartmapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/orderitemmapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/ordermapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/payinfomapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/productmapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mappers/shippingmapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mmall.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/zhifubao.property" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -305,7 +193,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/portal/userspringsessioncontroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
+            <state relative-caret-position="-279">
               <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
@@ -804,16 +692,15 @@
       <workItem from="1546671144054" duration="7772000" />
       <workItem from="1546935260048" duration="2830000" />
       <workItem from="1547189768587" duration="2039000" />
-      <workItem from="1547293103367" duration="1288000" />
+      <workItem from="1547293103367" duration="2203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343167000" />
+    <option name="totallyTimeSpent" value="344082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.627551" visible="true" weight="0.2707775" />
       <window_info id="Structure" order="1" sideWeight="0.21661721" side_tool="true" weight="0.21684414" />
@@ -833,10 +720,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32765958" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32765958" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32624114" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32624114" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3286119" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="16" />
@@ -1253,7 +1140,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/portal/userspringsessioncontroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
+        <state relative-caret-position="-279">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
